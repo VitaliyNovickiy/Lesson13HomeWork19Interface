@@ -15,4 +15,9 @@ public class Androids implements Smartphones,LinuxOS{
     public void internet() {
         System.out.println("Android: Browsing the internet");
     }
+
+    @Override
+    public void androidCommand() {
+        System.out.println("Android: Running LinuxOS commands");
+    }
 }

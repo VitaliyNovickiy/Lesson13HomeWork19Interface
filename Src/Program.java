@@ -4,6 +4,7 @@ public class Program {
         android.call();
         android.sms();
         android.internet();
+        ((LinuxOS) android).androidCommand();
 
         System.out.println();
 
@@ -11,5 +12,6 @@ public class Program {
         iPhone.call();
         iPhone.sms();
         iPhone.internet();
+        ((IOS) iPhone).iOSCommand();
     }
 }

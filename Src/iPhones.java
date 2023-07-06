@@ -15,4 +15,9 @@ public class iPhones implements Smartphones,IOS{
     public void internet() {
         System.out.println("iPhone: Browsing the internet");
     }
+
+    @Override
+    public void iOSCommand() {
+        System.out.println("iPhones: Running iOS commands");
+    }
 }
