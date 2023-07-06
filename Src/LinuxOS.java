@@ -1,3 +1,3 @@
 public interface LinuxOS {
-    void androidCommand();
+    void linuxOSCommand();
 }

@@ -4,7 +4,8 @@ public class Program {
         android.call();
         android.sms();
         android.internet();
-        ((LinuxOS) android).androidCommand();
+        ((LinuxOS) android).linuxOSCommand();
+
 
         System.out.println();
 

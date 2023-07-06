@@ -17,7 +17,7 @@ public class Androids implements Smartphones,LinuxOS{
     }
 
     @Override
-    public void androidCommand() {
+    public void linuxOSCommand() {
         System.out.println("Android: Running LinuxOS commands");
     }
 }
